@@ -1,0 +1,2 @@
+# afi
+ Ejercicio técnico AFI
