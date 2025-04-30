@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.operando{
+    @apply w-full flex flex-row gap-4 justify-center items-center;
+}
+
+.input{
+    @apply w-[10ch] sm:w-[20ch] p-1 text-center text-base sm:text-lg
+    border border-blue-300 rounded-lg 
+    focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent 
+    shadow-sm;
+}
+
+.label{
+    @apply text-base sm:text-lg font-semibold text-gray-700;
+}

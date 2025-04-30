@@ -1,0 +1,16 @@
+<div id="app" class="grid grid-cols-[100px_1fr] grid-rows-[100px_1fr]">
+    <!-- Sidebar ocupa toda la primera columna -->
+    <div id="sidebar" class="col-start-1 col-end-1 row-start-1 row-end-3 border-r-2 standard-box">
+        <p>SIDEBAR</p>
+    </div>
+
+    <!-- Header ocupa la primera fila excepto el primer elemento de esta -->
+    <div id="header" class="col-start-2 col-end-2 row-start-1 row-end-1 border-b-2 standard-box">
+        <p>HEADER</p>
+    </div>
+
+    <!-- Contenido principal de la aplicación. Ocupa el resto del layout -->
+    <div id="content" class="!p-6 col-start-2 col-end-2 row-start-2 row-end-2 flex justify-center items-center">
+        <router-outlet></router-outlet>
+    </div>
+</div>

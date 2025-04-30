@@ -1,0 +1,35 @@
+<button class="!p-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition cursor-pointer
+!mb-2" [routerLink]="['/lista']">
+    Volver
+</button>
+
+<div class="bg-white !p-3 sm:!p-6 flex flex-col gap-6 items-center justify-center
+max-w-sm rounded-xl shadow-md">
+
+    <h2 class="text-xl sm:text-2xl text-center">Calculadora 1 (suma)</h2>
+
+    <div class="flex flex-col gap-4 items-center justify-center
+    border-b-[1.5px] !pb-8 border-black">
+
+        <div class="operando">
+            <label class="label" for="a">Número a</label>
+            <input class="input" name="a" [(ngModel)]="a" type="number" step="0.01" id="a" required />
+        </div>
+
+        <div class="w-full">
+            <p class="w-[8ch] text-xl text-center font-bold">+</p>
+        </div>
+
+        <div class="operando">
+            <label class="label" for="b">Número b</label>
+            <input class="input" name="b" [(ngModel)]="b" type="number" step="0.01" id="b" required />
+        </div>
+
+    </div>
+
+    <div class="operando">
+        <p class="label text-center w-[8ch]">Total</p>
+        <span class="input">{{ total }}</span>
+    </div>
+
+</div>

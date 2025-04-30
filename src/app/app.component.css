@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/*La app debe ocupar todo el viewport disponible y tener un fondo azul*/
+#app{
+    min-width: 100dvw;
+    min-height: 100dvh;
+    background-color: #c0d6fa;
+}
+
+/*Estilizamos un poco el header y la sidebar*/
+.standard-box{
+    @apply bg-gray-200 border-black flex flex-col justify-center;
+}
+
+.standard-box p{
+    @apply text-center;
+}
