@@ -54,7 +54,7 @@ npm install
 ### 3. Lance la aplicación en desarrollo
 
 ```bash
-npm serve -o
+ng serve -o
 ```
 
 La aplicación correrá en http://localhost:4200 en tu navegador.
