@@ -2,8 +2,6 @@
 
 Este proyecto es una aplicación frontend desarrollada con **Angular CLI 19.2.9**, **Angular 19.2.8**, **Node.js 22.10.0** y **npm 9.6.4**.
 
-Si desea obviar los requisitos e instalaciones para lanzar la aplicación por usted mismo, acceda a []() para ver la aplicación en funcionamiento. Este despliegue se ha realizado mediante Vercel.
-
 ---
 
 ## Requisitos
@@ -12,12 +10,12 @@ Asegúrese de tener instaladas las siguientes herramientas:
 
 ### 1. Node.js 22.10.0
 
-Descárgalo desde:  
+Descárguelo desde:  
 👉 [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 Esto también instalará automáticamente `npm`.
 
-Verifica la instalación:
+Verifique la instalación:
 
 ```bash
 node -v       # Debería mostrar v22.10.0
@@ -43,7 +41,7 @@ ng version
 ### 1. Clone el repositorio
 
 ```bash
-git clone 
+git clone https://github.com/SergioDuranVega/afi.git
 cd tu-repo/totalum/frontend
 ```
 
